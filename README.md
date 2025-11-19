@@ -1,6 +1,6 @@
 # Panopticon
 
-Panopticon is a tool for searching quickly through PDFs.
+Panopticon is a desktop application for managing and searching through PDF documents with advanced text extraction and bookmarking capabilities.
 
 ## Features
 
@@ -65,7 +65,7 @@ Every version released will continue to work indefinitely, provided your operati
 
 ## Terms of Service
 
-**Last updated: [Date]**
+**Last updated: 19/11/2025**
 
 ## Agreement
 
