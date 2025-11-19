@@ -10,6 +10,10 @@ Panopticon is a desktop application for managing and searching through PDF docum
 - Real-time file system monitoring
 - Local storage: all data stored in ```documents/Panopticon``` (settings, Python environment, saved searches) and within your library directories (processed indexes)
 
+## Important Notice
+
+Panopticon creates and maintains essential data in two locations. First, a folder named "Panopticon" appears in your documents directory, containing application settings, the Python environment, and saved searches. Second, data folders and configuration files are placed within each library directory you add, preserving your tags and preferences. Removing these folders will result in permanent loss of your stored information and settings.
+
 ## Prerequisites
 
 ### Platform Support
