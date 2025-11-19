@@ -28,6 +28,82 @@ PDFs are processed locally with the help of [OCRmyPDF](https://github.com/ocrmyp
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
 - [Ghostscript](https://www.ghostscript.com/releases/gsdnld.html)
 
+## How to use
+
+This section quickly explains how to get Panopticon running, add and index your PDF library, search, and use the main features.
+
+### 1. Install (release user)
+
+- Download and install the prerequisites.
+- Download the latest installer from the Releases page: [Panopticon-Releases](https://github.com/Andersang/Panopticon-Release/releases).
+- Run the installer and follow on-screen prompts. Panopticon will create a user directory at `%USERPROFILE%\Documents\Panopticon`.
+
+\
+
+### 2. Settings & system checks
+
+- Open Settings to configure offline mode, directory preferences and exclude patterns.
+- Use the System Check features to see if required dependencies (Python, Tesseract, Ghostscript) are installed.
+
+\
+
+### 3. Open the app & add library directories
+
+1. Launch Panopticon from the Start Menu or Desktop shortcut.
+2. Click the + (Add Directory) button in the left sidebar to add folders to your library.
+3. Choose file types to index (PDF is the default). The app will scan your selected folders and build a local search index.
+
+\
+
+Hints:
+
+- First scan may take a while depending on the number and size of files. You can continue using the app while the initial indexing runs.
+- If a folder has many large PDFs, consider allowing the app a few minutes to finish before performing heavy searches.
+
+\
+
+### 4. Searching
+
+1. Use the search field at the top. Panopticon searches across titles, text extracted via OCR, and saved tags.
+2. Search suggestions and saved queries may appear as you type.
+3. Use quotes to force exact matches and common boolean operators (AND, OR) for narrower searches.
+
+\
+
+### 5. Managing bookmarks
+
+1. While viewing a PDF, click the bookmark icon to store the current page and add notes or tags.
+2. Bookmarks are saved per-file and are visible in the Bookmarks view.
+3. Use tags on bookmarks to organise them and speed up future searches.
+
+\
+
+### 6. Document processing & OCR
+
+- Panopticon uses OCR to extract searchable text from scanned PDFs. After adding a file, click `Process` to run OCR and text extraction.
+- By default OCR is performed locally (using Python/Tesseract). If OCR tools are unavailable the app will show what needs installing.
+
+\
+
+Tips:
+
+- Make sure Python 3.11+, Tesseract OCR and Ghostscript are installed and available on PATH for reliable OCR processing.
+- The first OCR pass can take longer; subsequent updates are incremental.
+
+\
+
+### 7. Updates
+
+- Panopticon checks GitHub releases for updates automatically (every 24 hours) and notifies you on the About page if a new version exists.
+- You can manually check for updates from the About page or use Settings → Check for updates.
+
+\
+
+If you need help or want to report a bug, open an issue on the releases repo or contact me at [andersang.wl@gmail.com](mailto:andersang.wl@gmail.com).
+
+## Updates
+
+New releases can be found on Github at [Panopticon-Releases](https://github.com/Andersang/Panopticon-Release/releases).
 
 ## Support Development
 
@@ -69,7 +145,7 @@ Every version released will continue to work indefinitely, provided your operati
 
 ## Terms of Service
 
-**Last updated: 19/11/2025**
+**Last updated: [Date]**
 
 ## Agreement
 
